@@ -1,17 +1,4 @@
-{
-    const Is_Absent=0
-    let empCheck=Math.floor(Math.random()*10)%2
-    if(empCheck==Is_Absent)
-    {
-    console.log("Employee is absent!")
-    return
-    }
-    else
-    {
-    console.log("Employee is present!!")
-
-    }
-}
+var dailyWage=()=>{
 const IS_PART_TIME=1;
 const IS_FULL_TIME=2;
 const PART_TIME_HOURS=4;
@@ -37,3 +24,6 @@ default:
 }
 let empWage = empHrs * WAGE_PER_HOUR;
 console.log("Emp wage: "+empWage);
+return empWage
+}
+dailyWage()
